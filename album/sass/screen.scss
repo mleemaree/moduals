@@ -6,6 +6,106 @@
 @import "compass/reset";
 
 body{
-	background-color:red;
-	color: yellow;
+    font:16px #2ab0b9 "Montserrat";
+    font-weight:400;
+    background-color:white;
+    height: 300px;
+    width: 350px;
+    border: 1px solid black;
+    z-index:0;
+    position:relative;
 }
+
+
+div.top{
+    text-align:center;
+    border-bottom: 1px solid #e6e6e6;
+    padding:10px;
+
+}
+
+.itineraryNav{
+    display:inline;
+    height:50px;
+    width:100%;
+    text-align:center;
+}
+
+.itineraryNav h2{
+    display:inline;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-size:12px;
+    color: #2ab0b9;
+    text-align:center;
+    margin: 10px;
+    padding-bottom:50px;
+  }
+
+.content{
+    width:100%;
+    text-align: center;
+    background-color: #f3f3f3;
+
+}
+
+.image{
+    display:inline-block;
+    height: 105px;
+    width: 105px;
+    background-color: black;
+    text-align:center;
+    margin: 0 auto;
+}
+
+#pic1{
+    background-image: url("../images/pic1.png");
+    background-size:100%;
+}
+
+#pic2{
+    background-image: url("../images/pic2.png");
+    background-size:100%;
+
+}
+
+#pic3{
+    background-image: url("../images/pic3.png");
+    background-size:100%;
+}
+
+#pic4{
+    background-image: url("../images/pic4.png");
+    background-size:100%;
+}
+
+#pic5{
+    background-image: url("../images/pic5.png");
+    background-size:100%;
+}
+
+#pic6{
+    background-image: url("../images/pic1.png");
+    background-size:100%;
+}
+
+
+
+
+
+footer.expand{
+    text-align: center;
+}
+
+div.arrow{
+position:relative;
+bottom: 0px;
+height:40px;
+}
+
+#arrow {
+    position:relative;
+    top: 15px;
+    
+}
+
