@@ -3,7 +3,7 @@ body{
     font-weight:400;
     background-color:white;
     height: 300px;
-    width: 300px;
+    width: 350px;
     border: 1px solid black;
     z-index:0;
     position:relative;
@@ -37,10 +37,12 @@ div.top{
 
 
 .container {
-width: 300px; 
-height: 252px; 
-overflow: hidden;
-background-image: url("assets/bigMap.png");
+height:84%;
+width: 350px;
+background: url("assets/bigMap.png");
+background-size: 100%;
+background-overflow: hidden;
+
 
  }
 
