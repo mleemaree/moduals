@@ -20,31 +20,33 @@ body{
     position:relative;
 }
 
-div.top{
+.top{
+    height:15%;
+    width: 100%;
+    background-color:white;
+    border-bottom: 2px solid #e7e7e7;
     text-align:center;
-    border-bottom: 1px solid #e6e6e6;
-    padding:10px;
-
+    position:absolute;
+    top: 0px;
 }
 
-
-.itineraryNav{
-    display:inline;
-    height:50px;
-    width:100%;
-    text-align:center;
+#bring{
+    display:inline-block;
+    width: 7%;
+    position:relative;
+    top:20%;
 }
 
-.itineraryNav h2{
-    display:inline;
-    font-family: "Montserrat";
-    text-transform: uppercase;
-    font-size:12px;
+.top h2{
+    display:inline-block;
+    position:relative;
+    top: 10%;
+    width: 25%;
+    font-family:"Montserrat";
     color: #2ab0b9;
-    text-align:center;
-    margin: 10px;
-    padding-bottom:50px;
-  }
+    font-size: 1em;
+    text-transform:uppercase;
+}
 
 
 h3{
@@ -56,6 +58,9 @@ h3{
 .list{
     text-align:center;
     text-transform: uppercase;
+    overflow:hidden;
+    position:relative;
+    top:51px;
 }
 
 .input{
@@ -74,6 +79,7 @@ input.box{
 .edit{
     position:absolute;
     right: 0px;
+    top: 50px;
     margin: 20px;
 }
 
