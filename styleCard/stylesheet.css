@@ -1,0 +1,72 @@
+.card{
+    height:300px;
+    width: 350px;
+    border: 1px solid black;
+    background-color: #f3f3f3;
+    position:absolute;
+}
+
+.top{
+    height:15%;
+    width: 100%;
+    background-color:white;
+    border-bottom: 2px solid #e7e7e7;
+    text-align:center;
+    position:absolute;
+    top: 0px;
+}
+
+#feeds{
+    display:inline-block;
+    width: 10%;
+    vertical-align:middle;
+}
+
+h2{
+    display:inline-block;
+    vertical-align:middle;
+    width: 25%;
+    font-family:"Montserrat";
+    color: #2ab0b9;
+    font-size: 1em;
+    text-transform:uppercase;
+}
+
+.content{
+    position:absolute;
+    top:16%;
+    height:72%;
+    width: 100%;
+    background-color:#f3f3f3;
+}
+
+
+
+
+
+
+
+.expand{
+    height:15%;
+    width: 100%;
+    background-color:white;
+    border-top: 2px solid #e7e7e7;
+    text-align:center;
+    position:absolute;
+    bottom: 0px;
+}
+
+.center{
+    display:inline-block;
+    height: 100%;
+    vertical-align:middle;
+}
+
+
+
+
+
+#arrow{
+    display:inline-block;
+    vertical-align:middle;
+}

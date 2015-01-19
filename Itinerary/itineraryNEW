@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Itinerary</title>
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="stylesheet.css" />
+<link rel="stylesheet" href="stylesheetNEW.css" />
 </head>
 <body>
     <div class="card">
@@ -19,26 +19,24 @@
         
         <section>
             <div class="content">
-                <div class='heads'>
-    		        <ul class="profilePictures">
-                        <li class="head"><img class="avatar" src="images/guy1.png"></li>
-                        <li class="head"><img class="avatar" src="images/guy2.png"></li>
-                        <li id="front" class="head"><img class="avatar" src="images/guy3.png"></li>
-                        <li class="head"><img class="avatar" src="images/guy4.png"></li>
-                        <li id="front" class="head"><img class="avatar" src="images/guy5.png"></li>
-                        <span class="streach"></span>
-                    </ul>
-                </div>
+                <ul class="profilePictures">
+                    <li class="head"><img class="avatar" src="images/guy1.png"></li>
+                    <li class="head"><img class="avatar" src="images/guy2.png"></li>
+                    <li id="front" class="head"><img class="avatar" src="images/guy3.png"></li>
+                    <li class="head"><img class="avatar" src="images/guy4.png"></li>
+                    <li id="front" class="head"><img class="avatar" src="images/guy5.png"></li>
+                    <span class="streach"></span>
+                </ul>
 
-                       <div class="itinerary">
+
+           
                 <ul class="itinerarys">
                     <li class="cita"><strong>10:30</stong> Pick up Mario and Ana</li>
                 </ul>
-            <div class="location">
+    
                 <img class="locationIcon" src="images/location.png">
-                <h2 class="barcelona"><strong>Montenegro</strong></h2>
-            </div>
-            <div class="buttons">
+                <h2 class="barcelona"><strong>Ronda Universitat</strong></h2>
+   
                 <ul class="optionButtons">
                     <li class="what">ON TIME</li>
                     <li class="what">DELAY</li>
@@ -46,8 +44,7 @@
                     <li class="what">DELETE</li>    
                 </ul>
             </div>
-        </div>
-            </section>
+        </section>
 
         <footer>
             <div class="expand">
